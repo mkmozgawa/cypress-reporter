@@ -1,0 +1,11 @@
+{
+  "name": "cypress-grafana",
+  "version": "1.0.0",
+  "description": "cypress + grafana dashboard setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "hello@magda.space",
+  "license": "ISC"
+}
