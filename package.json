@@ -7,7 +7,7 @@
     "delete:reports": "rm cypress/results/* mochawesome.json mochawesome-report/mochawesome.html || true",
     "delete:artifacts": "rm -r cypress/screenshots/* cypress/videos/*",
     "merge:reports": "npx mochawesome-merge --reportDir cypress/results > mochawesome.json",
-    "generate:html": "npx mochawesome-report-generator mochawesome.json",
+    "generate:html": "npx marge mochawesome.json",
     "test": "./node_modules/.bin/cypress run --reporter mochawesome",
     "report": "npm run merge:reports && npm run generate:html"
   },

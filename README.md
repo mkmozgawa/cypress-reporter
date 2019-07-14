@@ -14,3 +14,5 @@ get the repo, install the dependencies via npm, run the sample tests
 `./tests_to_report.sh`
 
 Note that the previous reports, screenshots, etc are removed before running the tests so archive them before running the script. The steps from `tests_to_report.sh` are defined in the `package.json` file.
+
+Another note: `marge`=`mochawesome-report-generator` ¯\_(ツ)_/¯
