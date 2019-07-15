@@ -7,7 +7,7 @@ get the repo, install the dependencies via npm, run the sample tests
 
 `git clone https://github.com/mkmozgawa/cypress-reporter && cd cypress-reporter`
 
-`npm i`
+`npm ci`
 
 `chmod +x tests_to_report.sh`
 
